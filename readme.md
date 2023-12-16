@@ -36,7 +36,18 @@ With this API, you can :
 
 #### Built with
 
-NodeJS
-Express
-MongoDB (Mongoose)
-express-hal
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KkScstnJ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zojuy79lo3fn3qdt7g6p.png"  alt="Logo" width="220" height="150">
+
+<img src="https://miro.medium.com/v2/resize:fit:1050/1*OYpEW3PMltGC2MVvJ-5QTw.png"  alt="Logo" width="220" height="150">
+
+<div align="center">
+Library for JSON HAL : express-hal
+</div>
+
+<br/>
+<br/>
+
+<h3 align="center">
+Thank you for reading ;)
+
+<div>
