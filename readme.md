@@ -2,9 +2,9 @@
 
 <img src="https://www.oreilly.com/api/v2/epubs/9781789537611/files/assets/0f85cdef-13d5-45cc-a224-12d1f075e2ae.png"  alt="Logo" width="180" height="150">
 
-</div>
+<h1>API HATEOAS FILMS with JSON HAL</h1>
 
-##API HATEOAS FILMS with JSON HAL
+</div>
 
 #### How to setup the project
 
