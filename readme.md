@@ -2,22 +2,26 @@
 
 <img src="https://www.oreilly.com/api/v2/epubs/9781789537611/files/assets/0f85cdef-13d5-45cc-a224-12d1f075e2ae.png"  alt="Logo" width="180" height="150">
 
-</div>
+<h1>API HATEOAS FILMS with JSON HAL</h1>
 
-##API HATEOAS FILMS with JSON HAL
+</div>
 
 #### How to setup the project
 
 1. Open your terminal
 
-2. Clone the repo
-   ```sh
-   git clone https://github.com/Julienlpv/Webservices_APIHATEOAS
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
+. Install NPM packages
+
+```sh
+npm install
+```
+
+2. Go to the project directory
+3. Launch the app
+
+```sh
+nodemon index.js
+```
 
 #### Features
 
@@ -36,7 +40,18 @@ With this API, you can :
 
 #### Built with
 
-NodeJS
-Express
-MongoDB (Mongoose)
-express-hal
+- NodeJS
+- Express
+- MongoDB + Mongoose
+- Library for JSON HAL : express-hal
+- Nodemon
+
+<br/>
+<br/>
+
+<h3 align="center">
+Thank you for reading ;)
+<br/>
+Julien Le Provost
+
+<div>

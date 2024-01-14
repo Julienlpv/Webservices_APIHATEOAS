@@ -1,7 +1,7 @@
 const Category = require('../models/category');
 const Film = require('../models/film');
 
-// ///////////////////////// AJOUT DUNE NOUVELLE CATEGORIE ///////////////////////// OKOKOK
+// ///////////////////////// AJOUT DUNE NOUVELLE CATEGORIE ///////////////////////// 
 const addCategory = async (req, res) => {
     try {
         const { name } = req.body;
@@ -19,7 +19,7 @@ const addCategory = async (req, res) => {
         }
     }
 };
-    //////////////////// RECUPERER TOUTES LES CATEGORIES ///////////////////////////////// OKOKOK
+    //////////////////// RECUPERER TOUTES LES CATEGORIES ///////////////////////////////// 
 const getAllCategories = async (req, res) => {
     try {
         const categories = await Category.find();
@@ -38,7 +38,8 @@ const getAllCategories = async (req, res) => {
         res.status(500).send("Erreur lors de la récupération des catégories.");
     }
 }
-    //////////////////// LISTER LES CATEGORIES D'UN FILM ///////////////////////// OKOKOKOK
+
+//////////////////// LISTER LES CATEGORIES D'UN FILM ///////////////////////// 
 const getFilmCategories = async (req, res) => {
     try {
         const film = await Film.findById(req.params.id).populate('categories');
@@ -63,7 +64,7 @@ const getFilmCategories = async (req, res) => {
         res.status(500).send("Erreur lors de la récupération des catégories du film.");
     }
 }
-    ///////////////////////////////// LISTER LES FILMS D'UNE CATEGORIE //////////////////////////// OKOKOK
+    ///////////////////////////////// LISTER LES FILMS D'UNE CATEGORIE //////////////////////////// 
 const getCategoryFilms = async (req, res) => {
     try {
         const categoryId = req.params.id;

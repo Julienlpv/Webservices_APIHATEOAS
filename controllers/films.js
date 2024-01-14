@@ -1,9 +1,8 @@
 const Category = require('../models/category');
 const Film = require('../models/film');
 
-// Ajoutez toutes les fonctions relatives aux films ici
 
-////////////////////////// RECUPERER LA LISTE DE TOUS LES FILMS AVEC PAGINATION ///////////////////// OKOOKOK
+////////////////////////// RECUPERER LA LISTE DE TOUS LES FILMS AVEC PAGINATION ///////////////////// 
 
 const getFilms = async (req, res) => {
     try {
@@ -37,7 +36,7 @@ const getFilms = async (req, res) => {
     }
 };
 
-///////////////////////  RECUPERER UN FILM PAR SON ID ////////////////////////////// OKOKOK
+///////////////////////  RECUPERER UN FILM PAR SON ID ////////////////////////////// 
     
 const getFilmById = async (req, res) => {
     try {
@@ -63,7 +62,7 @@ const getFilmById = async (req, res) => {
 };
     
     
-////////////////// RECHERCHE FILMS QUERY PARAMS //////////////////  OKOKOK  
+////////////////// RECHERCHE FILMS QUERY PARAMS //////////////////   
 
 const getFilmByQuery = async (req, res) => {
     try {
@@ -102,7 +101,7 @@ const getFilmByQuery = async (req, res) => {
 
 
     
-////////////////////////////////  AJOUT DUN FILM ////////////////////////////////// OKOKOK
+////////////////////////////////  AJOUT DUN FILM ////////////////////////////////// 
 
 const addFilm = async (req, res) => {
     try {
@@ -143,7 +142,7 @@ const addFilm = async (req, res) => {
     }
 }
     
-/////////////////////////////// UPDATE UN FILM //////////////////////////////////// OKOKOK
+/////////////////////////////// UPDATE UN FILM //////////////////////////////////// 
 
 const updateFilm = async (req, res) => {
     try {
@@ -167,7 +166,7 @@ const updateFilm = async (req, res) => {
     }
 }
     
-///////////////////////  DELETE UN FILM ////////////////////////////////////// OKOKOKOK
+///////////////////////  DELETE UN FILM ////////////////////////////////////// 
 
 const deleteFilm = async (req, res) => {
     try {
